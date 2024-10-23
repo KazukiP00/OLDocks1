@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    color: #333;
+    background-image: url('../Immagini/paper-1074136_1920.jpg');
+    font-family: "Pirata One", system-ui;
+
+}
+
+.Barra2{
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.barra{
+    transform: translate(1em, 1em);
+
+    width: 200em;
+    background-color: #d38200;
+    flex-direction: row;
+
+}
+
+header {
+    background-color: #d38200;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 1.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.hero {
+    flex-direction: column;
+    margin-left: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+    height: 100vh;
+
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    color: #333;
+    
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    color: #333;
+
+}
+
+.herocatalogo{
+
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(211, 0, 0);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+
+    text-align: center;
+    padding: 4rem 2rem;
+    height: 100vh;
+
+}
+
+.cta-button {
+    padding: 0.7rem 1.5rem;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5;
+}
+
+.naveindex {
+
+    font-weight: 100;
+
+}
+
+.buy-button{
+
+    outline: auto;
+    background-color: rgb(255, 234, 234);
+    font-family: "Pirata One", system-ui;
+
+
+}
+
+.ship-card{
+
+    outline: #333;
+    outline-width: 3em;
+
+}
